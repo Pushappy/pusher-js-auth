@@ -1,4 +1,4 @@
-import { AuthorizerGenerator } from 'pusher-js';
+import { AuthorizerGenerator } from 'pusher-js/with-encryption';
 
 export as namespace PusherBatchAuthorizer;
 
