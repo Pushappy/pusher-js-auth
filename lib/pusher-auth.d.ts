@@ -9,5 +9,6 @@ export = pusherBatchAuthorizer;
 declare module 'pusher-js' {
     export interface AuthorizerOptions {
         authDelay?: number;
+        useEncryption?: boolean;
     }
 }
